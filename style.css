@@ -1,0 +1,62 @@
+@media screen and (max-width: 479px){
+    body {
+        background-color: red;
+        font-size: small;
+    }
+    #small {
+        display: block;
+    }
+    #medium {
+        display: block;
+    }
+    #large {
+        display: block;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+
+    body {
+        background-color: green;
+    }
+    #small {
+        display: block;
+        float: left;
+        width: 66%;
+    }
+    #medium {
+        display: block;
+        float: right;
+        width:33%;
+
+    }
+    #large {
+    display:block;
+        float: inline-end;
+        width: 100%;
+        }
+}
+
+@media screen and (min-width: 1024px) {
+
+    body {
+        background-color: lightblue;
+    }
+    #small {
+        display:block;
+        float: left;
+        width: 30%;
+    }
+    #medium {
+        display: block;
+        float: right;
+        width: 30%;
+    }
+    #large {
+        display:block;
+        float: right;
+        width: 30%;
+    }
+}
+
+
+
